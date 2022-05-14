@@ -20,4 +20,37 @@ def get_emp_of_the_year(emp_hours):
 
 get_emp_of_the_year(emp_hours)
 
+#function calling another function 
+
+# shuffle list 
+def shuffle_list():
+    
+    import random
+    num_list = ['','0','']
+    random.shuffle(num_list)
+    return num_list
+    
+new_list = shuffle_list()
+print(new_list)
+
+# get user preference
+def get_user_choice():
+    user_choice =''
+    while (user_choice not in ['0','1','2']):
+        user_choice = input("Enter a number between 0 and 2: ")
+    
+    return user_choice
+
+get_user_choice()
+
+def compare_user_choice(list,choice):
+    
+
+
+
+    
+
+
+
+# compare shuffle list with user preference
 
