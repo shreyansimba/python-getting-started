@@ -82,5 +82,5 @@ def animal_crackers(two_word):
    return False
 
 
-animal_crackers("Priyanga Panni")
+animal_crackers("awesome animals")
 
