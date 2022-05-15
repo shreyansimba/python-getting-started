@@ -78,10 +78,9 @@ def animal_crackers(two_word):
    second_occur = two_word[two_word.find(" ")+1]
    first_occur = two_word[0]
    if first_occur == second_occur:
-       return true
-       return false
+       return True
+   return False
 
 
-
-animal_crackers('Levelheaded Llama')
+animal_crackers("Priyanga Panni")
 
